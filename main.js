@@ -23,6 +23,10 @@ function substract(a,b){
   return a-b;
 }
 
+/*Division of two numbers*/
+function division(a,b){
+  return a/b;
+}
 
 
 var addOutput = document.getElementById('addition-output');
@@ -33,3 +37,6 @@ multiplyOutput.innerHTML = multiply(5,5);
 
 var substractOutput = document.getElementById('substract-output');
 substractOutput.innerHTML = substract(10,5);
+
+var divisionOutput = document.getElementById('division-output');
+divisionOutput.innerHTML = division(10,5);
